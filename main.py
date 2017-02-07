@@ -39,3 +39,23 @@ def getAtom(file, number):
 
 print "hge"
 getAtom('1rc7.pdb', 977)
+
+def generateMatrix(a1, a2):
+    l = a2 - a1
+
+    tab = []
+    for i in range(0, l):
+        row = []
+        for j in range(0, l):
+            row.append("a")
+        tab.append(row)
+
+
+
+    return tab
+
+def printMatrix(matrix):
+    for i in matrix:
+        print i
+
+printMatrix(generateMatrix(3,6))
