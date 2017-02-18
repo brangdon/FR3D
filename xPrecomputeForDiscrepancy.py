@@ -1,0 +1,4 @@
+
+
+def xPrecomputeForDiscrepancy(c):
+    return ""
